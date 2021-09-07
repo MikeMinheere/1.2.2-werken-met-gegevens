@@ -5,5 +5,8 @@ Broodjes = 1.53
 Jam = 1.89
 Kaas = 2.13
 VanilleIjs = 3.11
+Totaal = 9*(Jam + 4*Broodjes + Kaas + 2*VanilleIjs)
 
-print(9*(Jam + 4*Broodjes + Kaas + 2*VanilleIjs))
+Tekst = 'de lunch kostte in totaal ' + str(Totaal) + ' euro'
+
+print(Tekst)
